@@ -1,9 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-
 const generateMarkdown = require('./utils/generateMarkdown.js');
-
 const writeFileAsync = util.promisify(fs.writeFile);
 // array of questions for user
 const questions = [
@@ -20,7 +18,7 @@ const questions = [
       {
         type: "input",
         name: "description",
-        message: "Enter a description for this application."
+        message: "What is this appliation designed to do?"
       },
       {
         type: "input",
@@ -34,7 +32,7 @@ const questions = [
       },
       {
         type: "input",
-        name: "instalation",
+        name: "install",
         message: "Please enter Instalation Instructions."
       },
       {
@@ -46,14 +44,15 @@ const questions = [
         type: "input",
         name: "contributers",
         message: "Who contributed to this project?"
+      },
+      {
+        type: "input",
+        name: "License",
+        message: "Put any license here if none put N/A"
       }    
 
 ];
 
-// function to write README file
-/*function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data)
-}*/
 
 // function to initialize program
  async function init() {
