@@ -1,12 +1,12 @@
-# Never
+# sdfdsfas
   ## About 
-  * This project is designed to be never
+  * This project is designed to asdfsadfsd
 
 
   ## Links:
 
-  * Deployed application Url: never.com
-  * Github Repo: neverRepo.com
+  * Deployed application Url: sadfsadfd
+  * Github Repo: sdfsafsafsd
   
   ## Tabel of contents
 
@@ -25,12 +25,12 @@
 
 ## Instalation
 
-To install this application npm i
+To install this application sdfsddsf
 
 
 ## Usage
 
-To use this application use it
+To use this application asfdsaf
 
 
 
@@ -49,9 +49,9 @@ To use this application use it
 
 
 ## Contributers
+Contributers for this project were:
 
-
-just me
+dfsadfdsf
 
 ## License
 

@@ -46,9 +46,10 @@ const questions = [
         message: "Who contributed to this project?"
       },
       {
-        type: "input",
+        type: "list",
         name: "License",
-        message: "Put any license here if none put N/A"
+        message: "Please select a license",
+        choices: ['MIT', 'Apache', 'GPL', 'Public-Domain'],
       }    
 
 ];
