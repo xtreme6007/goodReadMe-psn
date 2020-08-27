@@ -22,6 +22,8 @@ function generateMarkdown(data, license) {
 >   * [Resources (Documentation and other links)](#resources)
 >   * [Contributers](#contributers)
 >   * [License](#license)
+>   * [Tests](#tests)
+>   * [Questions](#questions)
 
 
 
@@ -32,7 +34,7 @@ To install this application ${data.install}
 
 ## Usage
 
-To use this application ${data.usage}
+ ${data.usage}
 
 
 
@@ -63,6 +65,8 @@ ${license}
 ## Tests
 
 ${data.test}
+
+## Questions?
 
 
 

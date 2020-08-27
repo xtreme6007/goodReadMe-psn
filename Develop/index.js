@@ -52,7 +52,7 @@ const questions = [
         name: "license",
         message: "Please select a license",
         choices: ['MIT', 'Apache', 'GPL', 'Unlicensed'],
-      } 
+      }, 
       {
         type: "input",
         name: "test",
