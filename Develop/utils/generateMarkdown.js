@@ -14,14 +14,14 @@ function generateMarkdown(data) {
 
 
 > * [Title / Repository Name]
->   * [About]
->   * [Table of contents]
->   * [Installation]
->   * [Usage]
->   * [Screenshots]
->   * [Resources (Documentation and other links)]
->   * [Contributers]
->   * [License]
+>   * [About]me](#about)
+>   * [Table of contents](#tabel-of-contents)
+>   * [Installation](#installation)
+>   * [Usage](#usage)
+>   * [Screenshots](#sceenshots)
+>   * [Resources (Documentation and other links)](#resources)
+>   * [Contributers](#contributers)
+>   * [License](#license)
 
 
 

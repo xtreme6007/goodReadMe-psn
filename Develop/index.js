@@ -3,6 +3,7 @@ const fs = require("fs");
 const util = require("util");
 const generateMarkdown = require('./utils/generateMarkdown.js');
 const writeFileAsync = util.promisify(fs.writeFile);
+let license = "";
 // array of questions for user
 const questions = [
     {
@@ -53,6 +54,12 @@ const questions = [
       }    
 
 ];
+
+if(data.License === 'MIT') {
+  license = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+} else if(data.License === 'Apache') {
+
+}
 
 
 // function to initialize program
