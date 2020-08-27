@@ -2,8 +2,9 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const generateMarkdown = require('./utils/generateMarkdown.js');
+const { prompt } = require("inquirer");
 const writeFileAsync = util.promisify(fs.writeFile);
-let license = "";
+let licenseBadge = "";
 // array of questions for user
 const questions = [
     {
@@ -48,26 +49,37 @@ const questions = [
       },
       {
         type: "list",
-        name: "License",
+        name: "license",
         message: "Please select a license",
-        choices: ['MIT', 'Apache', 'GPL', 'Public-Domain'],
-      }    
+        choices: ['MIT', 'Apache', 'GPL', 'Unlicensed'],
+      } 
+      {
+        type: "input",
+        name: "test",
+        message: "Please enter any tests to run on this application."
+      }   
 
 ];
 
-if(data.License === 'MIT') {
-  license = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-} else if(data.License === 'Apache') {
 
-}
 
 
 // function to initialize program
  async function init() {
 
 const prompt =  await inquirer.prompt(questions);
-const markdown = generateMarkdown(prompt);
 
+if(prompt.license === 'MIT') {
+  licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+} else if(prompt.license === 'Apache') {
+ licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+} else if(prompt.license === 'gpl') {
+  licenseBadge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+} else if(prompt.license === 'Unlicensed'){
+  licenseBadge = "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)"
+}
+
+const markdown = generateMarkdown(prompt, licenseBadge);
 await writeFileAsync("README.md", markdown);
 
  }
