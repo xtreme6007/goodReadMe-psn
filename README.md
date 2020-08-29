@@ -50,7 +50,7 @@ nstall this run a Npm install
 
 
 ## Screen shots
-![screenshot](assets/img/test.png)
+![screenshot](assets/imgs/test.png)
 
 
 
