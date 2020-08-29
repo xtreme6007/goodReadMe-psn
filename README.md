@@ -1,13 +1,21 @@
-# goodReadMe-psn
-# GoodREADME
+# Good Read Me
+
+  ## License
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+  This application is licensed under the Unlicensed license.
+
+  
+
   ## Description 
-  * This project is designed to Create a professional and quality Read me generator By asking a few question about the application in a command line
+  * This project is designed to This application creats a good read me by asking a few questions
+
+
 
 
   ## Links:
 
-  * Deployed application Url: 
-  * Github Repo: https://github.com/xtreme6007/goodReadMe-psn.git
+  * Deployed application Url: xtrem6007.github.io
+  * Github Repo: github.com/xtreme6007/GOODREADME
   
   ## Tabel of contents
 
@@ -28,19 +36,21 @@
 
 ## Instalation
 
-To install this application do a NPM install
+nstall this run a Npm install
+
+
 
 
 ## Usage
 
- This application runs in the comman line of your terminal or git bash
+  Use this application in the comand line terminal.
 
 
 
 
 
 ## Screen shots
-
+![screenshot](Develop/assets/img/test.png)
 
 
 
@@ -54,15 +64,15 @@ To install this application do a NPM install
 ## Contributers
 Contributers for this project were:
 
-Preston Nichols
+Xtreme6007
 
-## License
-
-
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Tests
 
 N/A
 
 ## Questions?
+GitHub UserName: xtrme6007
+GitHub Profile: https://github.com/xtrme6007
+Email: xtreme6007@yahoo.com
+Please contact me via email for any further question.
