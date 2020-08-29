@@ -7,7 +7,7 @@
   
 
   ## Description 
-  * This project is designed to This application creats a good read me by asking a few questions
+  * This project is designed to  create a good read me by asking a few questions
 
 
 
@@ -50,7 +50,7 @@ nstall this run a Npm install
 
 
 ## Screen shots
-![screenshot](Develop/assets/img/test.png)
+![screenshot](assets/img/test.png)
 
 
 
