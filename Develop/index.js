@@ -18,7 +18,7 @@ const questions = [
         message: "What is the title of your project?"
       },
       {
-        type: "input",
+        type: "editor",
         name: "description",
         message: "What is this appliation designed to do?"
       },
@@ -33,7 +33,7 @@ const questions = [
         message: "Enter your GitHub repo URL"
       },
       {
-        type: "input",
+        type: "editor",
         name: "install",
         message: "Please enter Instalation Instructions."
       },
