@@ -7,7 +7,13 @@ const writeFileAsync = util.promisify(fs.writeFile);
 let licenseBadge = "";
 // array of questions for user
 const questions = [
-    {
+    
+      {
+    type: "input",
+    name: "email",
+    message: "What is your Email address?"
+      },
+      {
         type: "input",
         name: "username",
         message: "What is your Github username?"

@@ -1,6 +1,13 @@
 // function to generate markdown for README
 function generateMarkdown(data, license) {
   return `# ${data.title}
+
+  ## License
+  ${license}
+  This application is licensed under the ${data.license} license.
+
+  
+
   ## Description 
   * This project is designed to ${data.description}
 
@@ -29,7 +36,7 @@ function generateMarkdown(data, license) {
 
 ## Instalation
 
-To install this application ${data.install}
+${data.install}
 
 
 ## Usage
@@ -57,17 +64,16 @@ Contributers for this project were:
 
 ${data.contributers}
 
-## License
-
-
-${license}
 
 ## Tests
 
 ${data.test}
 
 ## Questions?
-https://github.com/${data.username}
+GitHub UserName: ${data.username}
+GitHub Profile: https://github.com/${data.username}
+Email: ${data.email}
+Please contact me via email for any further question.
 
 
 
